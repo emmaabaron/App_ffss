@@ -1,0 +1,17 @@
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\bin\Debug\net6.0-windows\projet_ffss.exe
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\bin\Debug\net6.0-windows\projet_ffss.deps.json
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\bin\Debug\net6.0-windows\projet_ffss.runtimeconfig.json
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\bin\Debug\net6.0-windows\projet_ffss.dll
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\bin\Debug\net6.0-windows\projet_ffss.pdb
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.csproj.AssemblyReference.cache
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.Form1.resources
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.csproj.GenerateResource.cache
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.AssemblyInfoInputs.cache
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.AssemblyInfo.cs
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.csproj.CoreCompileInputs.cache
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.dll
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\refint\projet_ffss.dll
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.pdb
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\projet_ffss.genruntimeconfig.cache
+C:\Users\BBARON\Documents\C#\app_ffss\projet_ffss\projet_ffss\obj\Debug\net6.0-windows\ref\projet_ffss.dll
