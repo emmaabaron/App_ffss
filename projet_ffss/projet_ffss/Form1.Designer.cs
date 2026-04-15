@@ -30,6 +30,22 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageacc = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.textBoxLicence = new System.Windows.Forms.TextBox();
+            this.textBoxCate = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.buttonPerf = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.radioButtonHo = new System.Windows.Forms.RadioButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.radioButtonFe = new System.Windows.Forms.RadioButton();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBoxNaissance = new System.Windows.Forms.TextBox();
+            this.textBoxClub = new System.Windows.Forms.TextBox();
+            this.textBoxPrenom = new System.Windows.Forms.TextBox();
+            this.textBoxNom = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.buttoncotier = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -42,6 +58,20 @@
             this.radioButtonLongues = new System.Windows.Forms.RadioButton();
             this.radioButtonShort = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.labelEnaissance = new System.Windows.Forms.Label();
+            this.labelEgenre = new System.Windows.Forms.Label();
+            this.labelEcat = new System.Windows.Forms.Label();
+            this.labelEprenom = new System.Windows.Forms.Label();
+            this.labelEnom = new System.Windows.Forms.Label();
+            this.labelEclub = new System.Windows.Forms.Label();
+            this.labelElicence = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,6 +79,14 @@
             this.tabPagecotier = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.labelCnaissance = new System.Windows.Forms.Label();
+            this.labelCgenre = new System.Windows.Forms.Label();
+            this.labelCcat = new System.Windows.Forms.Label();
+            this.labelCclub = new System.Windows.Forms.Label();
+            this.labelCnom = new System.Windows.Forms.Label();
+            this.labelCprenom = new System.Windows.Forms.Label();
+            this.labelClicence = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -59,30 +97,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBoxCate = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.buttonPerf = new System.Windows.Forms.Button();
-            this.radioButtonHo = new System.Windows.Forms.RadioButton();
-            this.radioButtonFe = new System.Windows.Forms.RadioButton();
-            this.textBoxNaissance = new System.Windows.Forms.TextBox();
-            this.textBoxPrenom = new System.Windows.Forms.TextBox();
-            this.textBoxNom = new System.Windows.Forms.TextBox();
-            this.textBoxClub = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxLicence = new System.Windows.Forms.TextBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPageacc.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPageplate.SuspendLayout();
@@ -92,7 +109,6 @@
             this.tabPagecotier.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -118,6 +134,158 @@
             this.tabPageacc.Size = new System.Drawing.Size(1182, 597);
             this.tabPageacc.TabIndex = 0;
             this.tabPageacc.Text = "Acceuil";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.textBoxLicence);
+            this.groupBox9.Controls.Add(this.textBoxCate);
+            this.groupBox9.Controls.Add(this.label10);
+            this.groupBox9.Controls.Add(this.label15);
+            this.groupBox9.Controls.Add(this.label11);
+            this.groupBox9.Controls.Add(this.buttonPerf);
+            this.groupBox9.Controls.Add(this.label12);
+            this.groupBox9.Controls.Add(this.radioButtonHo);
+            this.groupBox9.Controls.Add(this.label13);
+            this.groupBox9.Controls.Add(this.radioButtonFe);
+            this.groupBox9.Controls.Add(this.label14);
+            this.groupBox9.Controls.Add(this.textBoxNaissance);
+            this.groupBox9.Controls.Add(this.textBoxClub);
+            this.groupBox9.Controls.Add(this.textBoxPrenom);
+            this.groupBox9.Controls.Add(this.textBoxNom);
+            this.groupBox9.Location = new System.Drawing.Point(172, 21);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(985, 278);
+            this.groupBox9.TabIndex = 30;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Informations générales du nageur";
+            // 
+            // textBoxLicence
+            // 
+            this.textBoxLicence.Location = new System.Drawing.Point(228, 77);
+            this.textBoxLicence.Name = "textBoxLicence";
+            this.textBoxLicence.Size = new System.Drawing.Size(100, 23);
+            this.textBoxLicence.TabIndex = 15;
+            // 
+            // textBoxCate
+            // 
+            this.textBoxCate.Location = new System.Drawing.Point(603, 155);
+            this.textBoxCate.Name = "textBoxCate";
+            this.textBoxCate.Size = new System.Drawing.Size(100, 23);
+            this.textBoxCate.TabIndex = 29;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(133, 80);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(77, 15);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "N° de licence";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(464, 158);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(58, 15);
+            this.label15.TabIndex = 28;
+            this.label15.Text = "Catégorie";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(133, 115);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(32, 15);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Club";
+            // 
+            // buttonPerf
+            // 
+            this.buttonPerf.Location = new System.Drawing.Point(453, 188);
+            this.buttonPerf.Name = "buttonPerf";
+            this.buttonPerf.Size = new System.Drawing.Size(250, 23);
+            this.buttonPerf.TabIndex = 27;
+            this.buttonPerf.Text = "Enregistrer et entrer des performances";
+            this.buttonPerf.UseVisualStyleBackColor = true;
+            this.buttonPerf.Click += new System.EventHandler(this.buttonPerf_Click_1);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(133, 153);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(34, 15);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Nom";
+            // 
+            // radioButtonHo
+            // 
+            this.radioButtonHo.AutoSize = true;
+            this.radioButtonHo.Location = new System.Drawing.Point(616, 115);
+            this.radioButtonHo.Name = "radioButtonHo";
+            this.radioButtonHo.Size = new System.Drawing.Size(69, 19);
+            this.radioButtonHo.TabIndex = 26;
+            this.radioButtonHo.TabStop = true;
+            this.radioButtonHo.Text = "Homme";
+            this.radioButtonHo.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(133, 188);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(49, 15);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Prénom";
+            // 
+            // radioButtonFe
+            // 
+            this.radioButtonFe.AutoSize = true;
+            this.radioButtonFe.Location = new System.Drawing.Point(479, 115);
+            this.radioButtonFe.Name = "radioButtonFe";
+            this.radioButtonFe.Size = new System.Drawing.Size(68, 19);
+            this.radioButtonFe.TabIndex = 25;
+            this.radioButtonFe.TabStop = true;
+            this.radioButtonFe.Text = "Femme ";
+            this.radioButtonFe.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(464, 80);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(101, 15);
+            this.label14.TabIndex = 20;
+            this.label14.Text = "Date de naissance";
+            // 
+            // textBoxNaissance
+            // 
+            this.textBoxNaissance.Location = new System.Drawing.Point(603, 77);
+            this.textBoxNaissance.Name = "textBoxNaissance";
+            this.textBoxNaissance.Size = new System.Drawing.Size(100, 23);
+            this.textBoxNaissance.TabIndex = 24;
+            // 
+            // textBoxClub
+            // 
+            this.textBoxClub.Location = new System.Drawing.Point(228, 107);
+            this.textBoxClub.Name = "textBoxClub";
+            this.textBoxClub.Size = new System.Drawing.Size(100, 23);
+            this.textBoxClub.TabIndex = 21;
+            // 
+            // textBoxPrenom
+            // 
+            this.textBoxPrenom.Location = new System.Drawing.Point(228, 188);
+            this.textBoxPrenom.Name = "textBoxPrenom";
+            this.textBoxPrenom.Size = new System.Drawing.Size(100, 23);
+            this.textBoxPrenom.TabIndex = 23;
+            // 
+            // textBoxNom
+            // 
+            this.textBoxNom.Location = new System.Drawing.Point(228, 150);
+            this.textBoxNom.Name = "textBoxNom";
+            this.textBoxNom.Size = new System.Drawing.Size(100, 23);
+            this.textBoxNom.TabIndex = 22;
             // 
             // groupBox2
             // 
@@ -239,18 +407,152 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label22);
-            this.groupBox5.Controls.Add(this.label23);
-            this.groupBox5.Controls.Add(this.label24);
+            this.groupBox5.Controls.Add(this.labelEnaissance);
+            this.groupBox5.Controls.Add(this.labelEgenre);
+            this.groupBox5.Controls.Add(this.labelEcat);
+            this.groupBox5.Controls.Add(this.labelEprenom);
+            this.groupBox5.Controls.Add(this.labelEnom);
+            this.groupBox5.Controls.Add(this.labelEclub);
+            this.groupBox5.Controls.Add(this.labelElicence);
+            this.groupBox5.Controls.Add(this.label31);
+            this.groupBox5.Controls.Add(this.label32);
+            this.groupBox5.Controls.Add(this.label30);
+            this.groupBox5.Controls.Add(this.label29);
+            this.groupBox5.Controls.Add(this.label28);
             this.groupBox5.Controls.Add(this.label25);
-            this.groupBox5.Controls.Add(this.label26);
             this.groupBox5.Controls.Add(this.label27);
             this.groupBox5.Location = new System.Drawing.Point(219, 24);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(947, 203);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Informations génrales du nageur";
+            this.groupBox5.Text = "Informations générales du nageur";
+            // 
+            // labelEnaissance
+            // 
+            this.labelEnaissance.AutoSize = true;
+            this.labelEnaissance.Location = new System.Drawing.Point(533, 47);
+            this.labelEnaissance.Name = "labelEnaissance";
+            this.labelEnaissance.Size = new System.Drawing.Size(44, 15);
+            this.labelEnaissance.TabIndex = 42;
+            this.labelEnaissance.Text = "label22";
+            // 
+            // labelEgenre
+            // 
+            this.labelEgenre.AutoSize = true;
+            this.labelEgenre.Location = new System.Drawing.Point(533, 94);
+            this.labelEgenre.Name = "labelEgenre";
+            this.labelEgenre.Size = new System.Drawing.Size(44, 15);
+            this.labelEgenre.TabIndex = 41;
+            this.labelEgenre.Text = "label22";
+            // 
+            // labelEcat
+            // 
+            this.labelEcat.AutoSize = true;
+            this.labelEcat.Location = new System.Drawing.Point(533, 125);
+            this.labelEcat.Name = "labelEcat";
+            this.labelEcat.Size = new System.Drawing.Size(44, 15);
+            this.labelEcat.TabIndex = 40;
+            this.labelEcat.Text = "label22";
+            // 
+            // labelEprenom
+            // 
+            this.labelEprenom.AutoSize = true;
+            this.labelEprenom.Location = new System.Drawing.Point(169, 155);
+            this.labelEprenom.Name = "labelEprenom";
+            this.labelEprenom.Size = new System.Drawing.Size(44, 15);
+            this.labelEprenom.TabIndex = 39;
+            this.labelEprenom.Text = "label22";
+            // 
+            // labelEnom
+            // 
+            this.labelEnom.AutoSize = true;
+            this.labelEnom.Location = new System.Drawing.Point(169, 120);
+            this.labelEnom.Name = "labelEnom";
+            this.labelEnom.Size = new System.Drawing.Size(44, 15);
+            this.labelEnom.TabIndex = 38;
+            this.labelEnom.Text = "label22";
+            // 
+            // labelEclub
+            // 
+            this.labelEclub.AutoSize = true;
+            this.labelEclub.Location = new System.Drawing.Point(169, 82);
+            this.labelEclub.Name = "labelEclub";
+            this.labelEclub.Size = new System.Drawing.Size(44, 15);
+            this.labelEclub.TabIndex = 37;
+            this.labelEclub.Text = "label22";
+            // 
+            // labelElicence
+            // 
+            this.labelElicence.AutoSize = true;
+            this.labelElicence.Location = new System.Drawing.Point(169, 47);
+            this.labelElicence.Name = "labelElicence";
+            this.labelElicence.Size = new System.Drawing.Size(44, 15);
+            this.labelElicence.TabIndex = 36;
+            this.labelElicence.Text = "label22";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(417, 91);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(38, 15);
+            this.label31.TabIndex = 35;
+            this.label31.Text = "Genre";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(417, 125);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(58, 15);
+            this.label32.TabIndex = 34;
+            this.label32.Text = "Catégorie";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(417, 47);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(101, 15);
+            this.label30.TabIndex = 33;
+            this.label30.Text = "Date de naissance";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(86, 155);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(49, 15);
+            this.label29.TabIndex = 32;
+            this.label29.Text = "Prénom";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(86, 120);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(34, 15);
+            this.label28.TabIndex = 31;
+            this.label28.Text = "Nom";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(86, 82);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(32, 15);
+            this.label25.TabIndex = 30;
+            this.label25.Text = "Club";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(86, 47);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(77, 15);
+            this.label27.TabIndex = 29;
+            this.label27.Text = "N° de licence";
             // 
             // groupBox4
             // 
@@ -314,6 +616,14 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label36);
+            this.groupBox3.Controls.Add(this.labelCnaissance);
+            this.groupBox3.Controls.Add(this.labelCgenre);
+            this.groupBox3.Controls.Add(this.labelCcat);
+            this.groupBox3.Controls.Add(this.labelCclub);
+            this.groupBox3.Controls.Add(this.labelCnom);
+            this.groupBox3.Controls.Add(this.labelCprenom);
+            this.groupBox3.Controls.Add(this.labelClicence);
             this.groupBox3.Controls.Add(this.label16);
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.Controls.Add(this.label18);
@@ -325,7 +635,79 @@
             this.groupBox3.Size = new System.Drawing.Size(902, 199);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Informations génrales du nageur";
+            this.groupBox3.Text = "Informations générales du nageur";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(383, 75);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(38, 15);
+            this.label36.TabIndex = 36;
+            this.label36.Text = "Genre";
+            // 
+            // labelCnaissance
+            // 
+            this.labelCnaissance.AutoSize = true;
+            this.labelCnaissance.Location = new System.Drawing.Point(490, 40);
+            this.labelCnaissance.Name = "labelCnaissance";
+            this.labelCnaissance.Size = new System.Drawing.Size(44, 15);
+            this.labelCnaissance.TabIndex = 35;
+            this.labelCnaissance.Text = "label35";
+            // 
+            // labelCgenre
+            // 
+            this.labelCgenre.AutoSize = true;
+            this.labelCgenre.Location = new System.Drawing.Point(490, 75);
+            this.labelCgenre.Name = "labelCgenre";
+            this.labelCgenre.Size = new System.Drawing.Size(44, 15);
+            this.labelCgenre.TabIndex = 34;
+            this.labelCgenre.Text = "label34";
+            // 
+            // labelCcat
+            // 
+            this.labelCcat.AutoSize = true;
+            this.labelCcat.Location = new System.Drawing.Point(490, 118);
+            this.labelCcat.Name = "labelCcat";
+            this.labelCcat.Size = new System.Drawing.Size(56, 15);
+            this.labelCcat.TabIndex = 33;
+            this.labelCcat.Text = "labelCcat";
+            // 
+            // labelCclub
+            // 
+            this.labelCclub.AutoSize = true;
+            this.labelCclub.Location = new System.Drawing.Point(135, 75);
+            this.labelCclub.Name = "labelCclub";
+            this.labelCclub.Size = new System.Drawing.Size(44, 15);
+            this.labelCclub.TabIndex = 32;
+            this.labelCclub.Text = "label26";
+            // 
+            // labelCnom
+            // 
+            this.labelCnom.AutoSize = true;
+            this.labelCnom.Location = new System.Drawing.Point(135, 113);
+            this.labelCnom.Name = "labelCnom";
+            this.labelCnom.Size = new System.Drawing.Size(44, 15);
+            this.labelCnom.TabIndex = 31;
+            this.labelCnom.Text = "label24";
+            // 
+            // labelCprenom
+            // 
+            this.labelCprenom.AutoSize = true;
+            this.labelCprenom.Location = new System.Drawing.Point(135, 148);
+            this.labelCprenom.Name = "labelCprenom";
+            this.labelCprenom.Size = new System.Drawing.Size(44, 15);
+            this.labelCprenom.TabIndex = 30;
+            this.labelCprenom.Text = "label23";
+            // 
+            // labelClicence
+            // 
+            this.labelClicence.AutoSize = true;
+            this.labelClicence.Location = new System.Drawing.Point(135, 40);
+            this.labelClicence.Name = "labelClicence";
+            this.labelClicence.Size = new System.Drawing.Size(44, 15);
+            this.labelClicence.TabIndex = 29;
+            this.labelClicence.Text = "label22";
             // 
             // label16
             // 
@@ -420,211 +802,6 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "Eau Plate";
             // 
-            // textBoxCate
-            // 
-            this.textBoxCate.Location = new System.Drawing.Point(603, 155);
-            this.textBoxCate.Name = "textBoxCate";
-            this.textBoxCate.Size = new System.Drawing.Size(100, 23);
-            this.textBoxCate.TabIndex = 29;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(464, 158);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(58, 15);
-            this.label15.TabIndex = 28;
-            this.label15.Text = "Catégorie";
-            // 
-            // buttonPerf
-            // 
-            this.buttonPerf.Location = new System.Drawing.Point(453, 188);
-            this.buttonPerf.Name = "buttonPerf";
-            this.buttonPerf.Size = new System.Drawing.Size(250, 23);
-            this.buttonPerf.TabIndex = 27;
-            this.buttonPerf.Text = "Enregistrer et entrer des performances";
-            this.buttonPerf.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonHo
-            // 
-            this.radioButtonHo.AutoSize = true;
-            this.radioButtonHo.Location = new System.Drawing.Point(616, 115);
-            this.radioButtonHo.Name = "radioButtonHo";
-            this.radioButtonHo.Size = new System.Drawing.Size(69, 19);
-            this.radioButtonHo.TabIndex = 26;
-            this.radioButtonHo.TabStop = true;
-            this.radioButtonHo.Text = "Homme";
-            this.radioButtonHo.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonFe
-            // 
-            this.radioButtonFe.AutoSize = true;
-            this.radioButtonFe.Location = new System.Drawing.Point(479, 115);
-            this.radioButtonFe.Name = "radioButtonFe";
-            this.radioButtonFe.Size = new System.Drawing.Size(68, 19);
-            this.radioButtonFe.TabIndex = 25;
-            this.radioButtonFe.TabStop = true;
-            this.radioButtonFe.Text = "Femme ";
-            this.radioButtonFe.UseVisualStyleBackColor = true;
-            // 
-            // textBoxNaissance
-            // 
-            this.textBoxNaissance.Location = new System.Drawing.Point(603, 77);
-            this.textBoxNaissance.Name = "textBoxNaissance";
-            this.textBoxNaissance.Size = new System.Drawing.Size(100, 23);
-            this.textBoxNaissance.TabIndex = 24;
-            // 
-            // textBoxPrenom
-            // 
-            this.textBoxPrenom.Location = new System.Drawing.Point(228, 188);
-            this.textBoxPrenom.Name = "textBoxPrenom";
-            this.textBoxPrenom.Size = new System.Drawing.Size(100, 23);
-            this.textBoxPrenom.TabIndex = 23;
-            // 
-            // textBoxNom
-            // 
-            this.textBoxNom.Location = new System.Drawing.Point(228, 150);
-            this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(100, 23);
-            this.textBoxNom.TabIndex = 22;
-            // 
-            // textBoxClub
-            // 
-            this.textBoxClub.Location = new System.Drawing.Point(228, 107);
-            this.textBoxClub.Name = "textBoxClub";
-            this.textBoxClub.Size = new System.Drawing.Size(100, 23);
-            this.textBoxClub.TabIndex = 21;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(464, 80);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 15);
-            this.label14.TabIndex = 20;
-            this.label14.Text = "Date de naissance";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(133, 188);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(49, 15);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Prénom";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(133, 153);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(34, 15);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Nom";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(133, 115);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(32, 15);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Club";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(133, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 15);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "N° de licence";
-            // 
-            // textBoxLicence
-            // 
-            this.textBoxLicence.Location = new System.Drawing.Point(228, 77);
-            this.textBoxLicence.Name = "textBoxLicence";
-            this.textBoxLicence.Size = new System.Drawing.Size(100, 23);
-            this.textBoxLicence.TabIndex = 15;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.textBoxLicence);
-            this.groupBox9.Controls.Add(this.textBoxCate);
-            this.groupBox9.Controls.Add(this.label10);
-            this.groupBox9.Controls.Add(this.label15);
-            this.groupBox9.Controls.Add(this.label11);
-            this.groupBox9.Controls.Add(this.buttonPerf);
-            this.groupBox9.Controls.Add(this.label12);
-            this.groupBox9.Controls.Add(this.radioButtonHo);
-            this.groupBox9.Controls.Add(this.label13);
-            this.groupBox9.Controls.Add(this.radioButtonFe);
-            this.groupBox9.Controls.Add(this.label14);
-            this.groupBox9.Controls.Add(this.textBoxNaissance);
-            this.groupBox9.Controls.Add(this.textBoxClub);
-            this.groupBox9.Controls.Add(this.textBoxPrenom);
-            this.groupBox9.Controls.Add(this.textBoxNom);
-            this.groupBox9.Location = new System.Drawing.Point(172, 21);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(985, 278);
-            this.groupBox9.TabIndex = 30;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Informations génrales du nageur";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(417, 125);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(58, 15);
-            this.label22.TabIndex = 34;
-            this.label22.Text = "Catégorie";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(417, 47);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(101, 15);
-            this.label23.TabIndex = 33;
-            this.label23.Text = "Date de naissance";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(86, 155);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(49, 15);
-            this.label24.TabIndex = 32;
-            this.label24.Text = "Prénom";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(86, 120);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(34, 15);
-            this.label25.TabIndex = 31;
-            this.label25.Text = "Nom";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(86, 82);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(32, 15);
-            this.label26.TabIndex = 30;
-            this.label26.Text = "Club";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(86, 47);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(77, 15);
-            this.label27.TabIndex = 29;
-            this.label27.Text = "N° de licence";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -636,6 +813,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPageacc.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -651,8 +830,6 @@
             this.groupBox3.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -706,11 +883,27 @@
         private TextBox textBoxClub;
         private TextBox textBoxPrenom;
         private TextBox textBoxNom;
-        private Label label22;
-        private Label label23;
-        private Label label24;
+        private Label label32;
+        private Label label30;
+        private Label label29;
+        private Label label28;
         private Label label25;
-        private Label label26;
         private Label label27;
+        private Label label31;
+        private Label labelElicence;
+        private Label labelEprenom;
+        private Label labelEnom;
+        private Label labelEclub;
+        private Label labelEnaissance;
+        private Label labelEgenre;
+        private Label labelEcat;
+        private Label label36;
+        private Label labelCnaissance;
+        private Label labelCgenre;
+        private Label labelCcat;
+        private Label labelCclub;
+        private Label labelCnom;
+        private Label labelCprenom;
+        private Label labelClicence;
     }
 }
