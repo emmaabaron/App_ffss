@@ -41,7 +41,7 @@ namespace projet_ffss
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex= 1;
+            tabControlaffichage.SelectedIndex= 1;
             labelElicence.Text = Convert.ToString(tabLicence[nbNageurs-1]);
             labelEclub.Text = tabClub[nbNageurs-1];
             labelEnom.Text = tabNom[nbNageurs-1];
@@ -49,12 +49,14 @@ namespace projet_ffss
             labelEnaissance.Text =tabDate[nbNageurs-1];
             labelEgenre.Text = tabSexe[nbNageurs-1];
             labelEcat.Text = tabCate[nbNageurs-1];
+            groupBoxshort.Hide();
+            groupBoxlong.Hide();
 
         }
 
         private void buttoncotier_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 2;
+            tabControlaffichage.SelectedIndex = 2;
             labelClicence.Text = Convert.ToString(tabLicence[nbNageurs - 1]);
             labelCclub.Text = tabClub[nbNageurs - 1];
             labelCnom.Text = tabNom[nbNageurs - 1];
@@ -66,12 +68,14 @@ namespace projet_ffss
 
         private void radioButtonShort_CheckedChanged(object sender, EventArgs e)
         {
-
+            groupBoxshort.Show();
+            groupBoxlong.Hide();
         }
 
         private void radioButtonLongues_CheckedChanged(object sender, EventArgs e)
         {
-
+            groupBoxshort.Hide();
+            groupBoxlong.Show();
         }
 
         private void buttonPerf_Click_1(object sender, EventArgs e)
@@ -93,5 +97,6 @@ namespace projet_ffss
             nbNageurs++;
         }
 
+        
     }
 }
